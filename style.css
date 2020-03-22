@@ -1,13 +1,49 @@
+#navbarNavAltMarkup  {
+    color: rgb(151, 144, 144);
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.carousel-indicators li {
+
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    background-color: rgb(196, 189, 189);
+    opacity: .3;
+    transition: opacity .6s ease-in-out;
+    border-radius: 100px;
+    border-radius: 100px;
+    border: 0;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    width: 40px;
+    background-image: linear-gradient(to left, rgb(255, 192, 75), orange);
+}
+
+.carousel-indicators {
+    top: 600px;
+}
+
 
 .container{
     margin-bottom: 100px;
     margin-top: 20px;
 }
+.nav-link{
+    padding-right: 20px;
+}
 .catagories{
     margin-bottom: 100px;
 }
 .background{
-    background-color: #ece5e5;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 .carousel-item{
@@ -21,6 +57,10 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+    margin-top: 15px;
+}
+.see-all{
+    color: orange;
 }
 .card-img-top{
     padding: 40px;
@@ -39,7 +79,34 @@
     box-shadow: 5px 5px 10px lightgray;
     text-align: center;
 }
+.bottom-line{
+    width: 100px;
+    height: 6px;
+    background-image: linear-gradient(to right, rgb(255, 181, 44), orange);
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.card-footer{
+    background-color: whitesmoke;
+    border-top: none;
+}
+#contact-us{
+    background-color: rgb(202, 199, 199);
+    border-radius: 10px;
+}
 
+
+#contact-us{
+    height: 400px;
+}
+#contact-us h6{
+    color: rgb(82, 79, 79);
+}
+.center{
+    text-align: center; 
+}
 footer{
     text-align: center;
 }
